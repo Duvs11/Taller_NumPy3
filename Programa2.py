@@ -21,5 +21,11 @@ plt.title("Mi primer gráfico cientifico en Programación")
 plt.plot(x,y)
 plt.xlabel("x")
 plt.ylabel("seno(x)")
+# PLT.GRID() es una cuadricula :)
 plt.grid(True)
+# En VSC se debe poner plt.show() para que muestre el gráfico
 plt.show()
+
+# Subplots fifuras dentro de una figura más grande
+# en python se puede asignar 2 valores a una variable al mismo tiempo 
+# z, c = 5, 2
